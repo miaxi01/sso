@@ -7,7 +7,7 @@
 ## [From Rally - second attempt](doc/administrating/rally2.md)
 # [Using](doc/using.md)
 ## [Test](test.md)
-# [Giri's World](giri.md)
+# [Giri's new World](giri.md)
 # [From Rally](sriram5.md)
 # [Demo To Bob](bob-demo.md)
 # [Demo To Bob from Rally](demo-to-Bob-from-rally.md)
