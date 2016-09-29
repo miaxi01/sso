@@ -1,0 +1,15 @@
+{% for node in include.nodes %}
+
+    <li class="{{type}}{% if node.children.size > 0 %}tree-haschildren closed{% else %}tree-nochildren{% endif %}{% if node.url == page.url%} current{% endif %}"
+        role="treeitem">
+        <i class="tree-toggle {% if node.children.size > 0 %}glyphicon glyphicon-triangle-right{% endif %}" ></i>
+        <a class="tree-link" href="{{ site.baseurl}}{{ node.url }}" tabindex="-1">{{ node.title }}</a>
+
+        {% if node.children.size > 0 %}
+            <ul>
+                {% include /functions/f_treebuilder.html nodes=node.children current=include.current %}
+            </ul>
+        {% endif %}
+    </li>
+
+{% endfor %}

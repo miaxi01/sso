@@ -1,0 +1,7 @@
+<div id="tree-navigation" data-spy="affix" data-offset-top="80">
+
+    <ul data-current="{{ site.baseurl }}{{ page.url }}">
+        {% include /functions/f_treebuilder.html nodes=site.data.toc current=page.path %}
+    </ul>
+
+</div>

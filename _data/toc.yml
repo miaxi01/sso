@@ -1,0 +1,31 @@
+- title: Installing
+  url: doc/installing.md
+  children:
+  - title: Install and Configure a Standalone Repository
+    url: doc/installing/install-and-configure-a-standalone-repository.md
+  - title: Install for All-in-One Environment
+    url: doc/installing/install-for-all-in-one-environment.md
+- title: Administrating
+  url: doc/administrating.md
+  children:
+  - title: Change System Settings
+    url: doc/administrating/change-system-settings.md
+  - title: Manage System Agent Groups
+    url: doc/administrating/manage-system-agent-groups.md
+  - title: From Rally - second attempt
+    url: doc/administrating/rally2.md
+- title: Using
+  url: doc/using.md
+  children:
+  - title: Test
+    url: test.md
+- title: Giri's World
+  url: giri.md
+- title: From Rally
+  url: sriram5.md
+- title: Demo To Bob
+  url: bob-demo.md
+- title: Demo To Bob from Rally
+  url: demo-to-Bob-from-rally.md
+- title: Demo To Surya
+  url: demo-to-surya.md

@@ -1,0 +1,29 @@
+<div class="container" id="page-content-wraper">
+
+    <div class="row">
+
+        <div class="col-md-3" id="tree-navigation-wrapper">
+            {% include tree.html %}
+        </div>
+
+        <div class="col-md-7">
+            <h1>{{ page.title }}</h1>
+
+            <div class="page-meta">
+                {{ date }}
+            </div>
+
+            <div id="page-content">
+                {{ content | toc }}
+            </div>
+            {{ page.next }}
+
+        </div>
+
+        <div class="col-md-2" id="pagetoc-wrapper">
+            {% include pagetoc.html %}
+        </div>
+
+    </div>
+
+</div>
